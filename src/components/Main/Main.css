@@ -1,0 +1,24 @@
+.main {
+  max-width: 100%;
+  height: 100%;
+}
+.up-btn {
+  padding: 18px 5px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  text-decoration: none;
+  color: #1b1a1abe;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  background-color: aqua;
+  border-radius: 50px;
+}
+
+.up-btn:hover {
+  margin-bottom: 5px;
+  box-shadow: 0 2px 3px;
+}
