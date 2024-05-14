@@ -2,6 +2,7 @@ import "./Header.css";
 import React from "react";
 
 function Header() {
+
   return (
     <header className="header" id="header">
       <h1 className="header__logo">Logo</h1>
@@ -19,6 +20,7 @@ function Header() {
           Галерея
         </a>
       </nav>
+      <p className="header__text">+7(917)9406963</p>
     </header>
   );
 }

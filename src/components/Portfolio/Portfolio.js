@@ -1,5 +1,10 @@
 import "./Portfolio.css";
 import { useNavigate } from "react-router-dom";
+import howtolearn from "../../images/howtolearn/header-image.png";
+import travel from "../../images/travel/__background.png";
+import mesto from "../../images/mesto/место.jpg";
+import dreams from "../../images/Сныклоуна/AK1A0457.jpg";
+import woo from "../../images/Ву/girl-on-bike-600.gif";
 
 function Portfolio() {
   const navigate = useNavigate();
@@ -12,9 +17,13 @@ function Portfolio() {
             className="portfolio__link"
             href="https://github.com/OlegMarkoF/how-to-learn"
             target="blank"
-            rel="noreferrer"
             title="Научиться учиться"
           >
+            <img
+              className="portfolio__img"
+              alt="фоновая картинка"
+              src={howtolearn}
+            />
             <p className="portfolio__text">Статичный сайт</p>
           </a>
         </li>
@@ -23,9 +32,13 @@ function Portfolio() {
             className="portfolio__link"
             href="https://olegmarkof.github.io/russian-travel/"
             target="blank"
-            rel="noreferrer"
             title="Путешествия по России"
           >
+            <img
+              className="portfolio__img"
+              alt="фоновая картинка"
+              src={travel}
+            />
             <p className="portfolio__text">Адаптивный сайт</p>
           </a>
         </li>
@@ -34,20 +47,50 @@ function Portfolio() {
             className="portfolio__link"
             href="https://olegmarkof.github.io/mesto/"
             target="blank"
-            rel="noreferrer"
             title="Mesto"
           >
+            <img
+              className="portfolio__img"
+              alt="фоновая картинка"
+              src={mesto}
+            />
             <p className="portfolio__text">Одностраничное приложение</p>
+          </a>
+        </li>
+        <li className="portfolio__li">
+          <a
+            className="portfolio__link"
+            href="https://olegmarkof.github.io/clownDreams/"
+            target="blank"
+            title="Сны Клоуна"
+          >
+            <img
+              className="portfolio__img"
+              alt="фоновая картинка"
+              src={dreams}
+            />
+            <p className="portfolio__text">Сайт для театра "ГримАсы"</p>
+          </a>
+        </li>
+        <li className="portfolio__li">
+          <a
+            className="portfolio__link"
+            href="https://olegmarkof.github.io/Woo/"
+            target="blank"
+            title="Woo"
+          >
+            <img className="portfolio__img" alt="фоновая картинка" src={woo} />
+            <p className="portfolio__text">Сайт для клининговой компании</p>
           </a>
         </li>
       </ul>
       <button
-          className="notfound__link"
-          onClick={() => navigate(-1) || navigate("/")}
-          type="button"
-        >
-          Назад
-        </button>
+        className="notfound__link"
+        onClick={() => navigate(-1) || navigate("/")}
+        type="button"
+      >
+        Назад
+      </button>
     </section>
   );
 }
