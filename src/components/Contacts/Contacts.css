@@ -1,0 +1,14 @@
+.contacts {
+    margin: 0 auto;
+    padding: 200px 0 0;
+}
+
+.contacts__text {
+    text-align: center;
+    list-style: none;
+}
+
+.message-content-btn {
+    width: 60px;
+    height: 30px;
+}

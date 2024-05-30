@@ -10,7 +10,7 @@ function Portfolio() {
   const navigate = useNavigate();
   return (
     <section className="portfolio">
-      <h3 className="portfolio__title">Портфолио</h3>
+      {/* <h3 className="portfolio__title">Портфолио</h3> */}
       <ul className="portfolio__ul">
         <li className="portfolio__li">
           <a
@@ -85,7 +85,7 @@ function Portfolio() {
         </li>
       </ul>
       <button
-        className="notfound__link"
+        className="portfolio__btn_prev"
         onClick={() => navigate(-1) || navigate("/")}
         type="button"
       >
