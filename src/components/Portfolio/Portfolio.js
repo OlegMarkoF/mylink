@@ -15,7 +15,7 @@ function Portfolio() {
         <li className="portfolio__li">
           <a
             className="portfolio__link"
-            href="https://github.com/OlegMarkoF/how-to-learn"
+            href="https://olegmarkof.github.io/how-to-learn/"
             target="blank"
             title="Научиться учиться"
           >

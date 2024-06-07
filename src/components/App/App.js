@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Main from "../Main/Main";
 import { Routes, Route } from "react-router-dom";
@@ -7,8 +8,10 @@ import Portfolio from "../Portfolio/Portfolio";
 import Gallery from "../Gallery/Gallery";
 import NotFound from "../NotFound/NotFound";
 import Contacts from "../Contacts/Contacts";
+// import logo from "../../images/я(чб).svg";
 
 function App() {
+  
   return (
     <>
       <Header />

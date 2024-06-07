@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-function Footer() {
+function Footer({ onAddPlace }) {
   return (
     <footer className="footer" id="footer">
         <p className="footer__about">Свободное место</p>
@@ -10,6 +10,12 @@ function Footer() {
           </div>
           <p className="footer__year">© 2024</p>
         </div>
+
+        {/* <button
+          className="profile__add-button"
+          type="button"
+          onClick={onAddPlace}
+        /> */}
     </footer>
   )
 }

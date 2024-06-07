@@ -6,7 +6,7 @@
   padding: 20px 70px;
   width: 100%;
   box-sizing: border-box;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: rgba(250, 250, 250, 0.8);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@
   margin: auto;
   padding-bottom: 20px;
   width: 100%;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   color: #a0a0a0;
   text-align: center;
   font-size: 13px;
