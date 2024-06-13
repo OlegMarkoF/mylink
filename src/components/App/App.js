@@ -8,6 +8,7 @@ import Portfolio from "../Portfolio/Portfolio";
 import Gallery from "../Gallery/Gallery";
 import NotFound from "../NotFound/NotFound";
 import Contacts from "../Contacts/Contacts";
+import Hamburger from '../Hamburger/humburger';
 // import logo from "../../images/я(чб).svg";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/*" element={<NotFound />} />
       </Routes>
       <Footer />
+      <Hamburger/>
     </>
   );
 }

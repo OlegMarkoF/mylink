@@ -12,6 +12,7 @@ function Header() {
       <a className="header__logo" href="/">
         <img className="logo__img" alt="фоновая картинка" src={logo} />
       </a>
+      <button class="hamburger-menu"></button>
       <nav className="header__menu">
         <NavLink className={seIstActive} to="/">
           Обо мне
