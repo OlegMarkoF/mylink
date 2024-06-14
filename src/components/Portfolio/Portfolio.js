@@ -1,7 +1,7 @@
 import "./Portfolio.css";
 import { useNavigate } from "react-router-dom";
 import howtolearn from "../../images/howtolearn/header-image.png";
-import travel from "../../images/travel/__background.png";
+import travel from "../../images/travel/background.png";
 import mesto from "../../images/mesto/место.jpg";
 import dreams from "../../images/Сныклоуна/AK1A0457.jpg";
 import woo from "../../images/Ву/girl-on-bike-600.gif";
