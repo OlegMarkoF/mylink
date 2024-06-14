@@ -40,7 +40,7 @@
   margin: 0;
   padding: 5px;
   /* width: min-content; */
-  width: 11rem;
+  width: 10rem;
   height: 30rem;
   border-radius: 1.2rem;
   box-sizing: border-box;
@@ -58,6 +58,18 @@
   height: 30rem;
   object-fit: cover;
   
+}
+
+.portfolio__li:nth-child(1) img {
+  left: -3.5rem;
+}
+
+.portfolio__li:nth-child(2) img {
+  left: -3rem;
+}
+
+.portfolio__li:nth-child(3) img {
+  left: -1rem;
 }
 
 .portfolio__link {
@@ -99,7 +111,7 @@ width: 100%;
   transition: 0.1s ease-out 0.2s; 
   font: 1.4em sans-serif;
   /* background-color: #000; */
-  z-index: 5;
+  z-index: 6;
 }
 
 .portfolio__btn_prev {
