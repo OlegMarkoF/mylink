@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mylink/static/css/main.e5820c40.css",
-    "main.js": "/mylink/static/js/main.b668d150.js",
-    "static/js/453.134c992e.chunk.js": "/mylink/static/js/453.134c992e.chunk.js",
-    "static/media/avatar.jpg": "/mylink/static/media/avatar.9ec89073f68807a1d318.jpg",
-    "static/media/girl-on-bike-600.gif": "/mylink/static/media/girl-on-bike-600.01a442bf2a2950c040db.gif",
-    "static/media/header-image.png": "/mylink/static/media/header-image.523406a663b34f340bd7.png",
-    "static/media/__background.png": "/mylink/static/media/__background.a7ed082da6df39dccb7c.png",
-    "static/media/AK1A0457.jpg": "/mylink/static/media/AK1A0457.620b911bd28d7643e16d.jpg",
-    "static/media/место.jpg": "/mylink/static/media/место.74ed174b51f720fd474a.jpg",
-    "static/media/я(чб).svg": "/mylink/static/media/я(чб).fac9cbfc4e58e43000791322fa18ce70.svg",
-    "index.html": "/mylink/index.html",
-    "static/media/hamburger.svg": "/mylink/static/media/hamburger.08035af1e508cd8cfed5.svg",
-    "static/media/Close.svg": "/mylink/static/media/Close.80dfd5bd01b8fe0a895e.svg",
-    "main.e5820c40.css.map": "/mylink/static/css/main.e5820c40.css.map",
-    "main.b668d150.js.map": "/mylink/static/js/main.b668d150.js.map",
-    "453.134c992e.chunk.js.map": "/mylink/static/js/453.134c992e.chunk.js.map"
+    "main.css": "/static/css/main.64a7d398.css",
+    "main.js": "/static/js/main.6dd5f28b.js",
+    "static/js/453.134c992e.chunk.js": "/static/js/453.134c992e.chunk.js",
+    "static/media/avatar.jpg": "/static/media/avatar.9ec89073f68807a1d318.jpg",
+    "static/media/girl-on-bike-600.gif": "/static/media/girl-on-bike-600.01a442bf2a2950c040db.gif",
+    "static/media/header-image.png": "/static/media/header-image.523406a663b34f340bd7.png",
+    "static/media/__background.png": "/static/media/__background.a7ed082da6df39dccb7c.png",
+    "static/media/AK1A0457.jpg": "/static/media/AK1A0457.620b911bd28d7643e16d.jpg",
+    "static/media/место.jpg": "/static/media/место.74ed174b51f720fd474a.jpg",
+    "static/media/я(чб).svg": "/static/media/я(чб).fac9cbfc4e58e43000791322fa18ce70.svg",
+    "index.html": "/index.html",
+    "static/media/hamburger.svg": "/static/media/hamburger.08035af1e508cd8cfed5.svg",
+    "static/media/Close.svg": "/static/media/Close.80dfd5bd01b8fe0a895e.svg",
+    "main.64a7d398.css.map": "/static/css/main.64a7d398.css.map",
+    "main.6dd5f28b.js.map": "/static/js/main.6dd5f28b.js.map",
+    "453.134c992e.chunk.js.map": "/static/js/453.134c992e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5820c40.css",
-    "static/js/main.b668d150.js"
+    "static/css/main.64a7d398.css",
+    "static/js/main.6dd5f28b.js"
   ]
 }
