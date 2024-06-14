@@ -1,6 +1,10 @@
 import './hamburger.css';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Hamburger() {
+  const seIstActive = ({ isActive }) => (isActive ? "service-button active" : "service-button");
+
   // Открытие/закрытие гамбургер меню
   const hamburger = document.querySelector('.hamburger');
   const clickMenuButton = document.getElementsByClassName('service-button');
@@ -11,11 +15,11 @@ function Hamburger() {
   const closeHamburger = () => {
     hamburger.classList.remove('hamburger_opened');
   };
-  function closeHamburgerEsc(evt) {
-    if (evt.key === 'Escape') {
-      closeHamburger();
-    }
-  }
+  // function closeHamburgerEsc(evt) {
+  //   if (evt.key === 'Escape') {
+  //     closeHamburger();
+  //   }
+  // }
   // function closeHamburgerClickButton(evt) {
   //   if (evt.key === 'click') {
   //     closeHamburger();
@@ -38,23 +42,23 @@ function Hamburger() {
   return (
     <section className="hamburger" onClick={closeHamburgerOverlay}>
       <div className="hamburger__box">
-        <button className="hamburger-menu hamburger__close-menu" onClick={openHamburger}></button>
-        <nav className="hamburger__button__group">
-          <a className="service-button" href="#tickets">
-            Купить билет
-          </a>
-          <a className="service-button" href="#calendar">
-            Афиша
-          </a>
-          <a className="service-button" href="#gallery">
+        <button
+          className="hamburger-menu hamburger__close-menu"
+          onClick={openHamburger}
+        ></button>
+        <nav className="header__menu">
+          <NavLink className={seIstActive} to="/">
+            Обо мне
+          </NavLink>
+          <NavLink className={seIstActive} to="/portfolio">
+            Портфолио
+          </NavLink>
+          <NavLink className={seIstActive} to="gallery">
             Галерея
-          </a>
-          <a className="service-button" href="#rewiews">
-            Отзывы
-          </a>
-          <a className="service-button" href="/#">
-            Подробности
-          </a>
+          </NavLink>
+          <NavLink className={seIstActive} to="contacts">
+            Контакты
+          </NavLink>
         </nav>
       </div>
     </section>
