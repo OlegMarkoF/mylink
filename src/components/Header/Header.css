@@ -11,6 +11,8 @@
 
 .header__logo {
   margin: 0;
+  width: 50px;
+  height: 40px;
   /* font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -21,7 +23,7 @@
 }
 
 .logo__img {
-  max-width: 8%;
+  width: 75%;
 }
 
 .header__menu {
