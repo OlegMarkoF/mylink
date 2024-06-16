@@ -1,16 +1,21 @@
 import "./Footer.css";
 
-function Footer() {
+function Footer({ onAddPlace }) {
   return (
     <footer className="footer" id="footer">
-        <p className="footer__about">Всё как на ладони</p>
+        <p className="footer__about">Свободное место</p>
         <div className="footer__box">
-          <p className="footer__year">© 2024</p>
           <div className="footer__links">
             <p className="footer__yp">Олег Марков</p>
-            <a className="footer__git" href="https://github.com/OlegMarkoF" target="blank">Github</a>
           </div>
+          <p className="footer__year">© 2024</p>
         </div>
+
+        {/* <button
+          className="profile__add-button"
+          type="button"
+          onClick={onAddPlace}
+        /> */}
     </footer>
   )
 }

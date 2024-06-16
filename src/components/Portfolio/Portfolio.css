@@ -2,11 +2,15 @@
   margin: 0 auto;
   padding: 100px 0px;
   max-width: 1280px;
+  height: 100vh;
   box-sizing: border-box;
   background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
-.portfolio__title {
+/* .portfolio__title {
   margin: 0;
   margin-bottom: 50px;
   max-width: 250px;
@@ -14,24 +18,58 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 111.111%;
-}
+} */
 
 .portfolio__ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
   list-style: none;
-  
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto; */
+  gap: 1rem;
+  max-width: 80rem;
+  /* flex-wrap: wrap; */
+  /* overflow: hidden; */
 }
 
 .portfolio__li {
   margin: 0;
-  width: min-content;
+  padding: 5px;
+  /* width: min-content; */
+  width: 10rem;
+  height: 30rem;
+  border-radius: 1.2rem;
   box-sizing: border-box;
   position: relative;
-  transition: visibility 0.5s, opacity 0.3s linear;
+  overflow: hidden;
+  left: 0;
+  transition: 0.6s ease-in-out;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+  flex: 0.25;
+}
+
+.portfolio__li img {
+  position: absolute;
+  inset: 0;
+  height: 30rem;
+  object-fit: cover;
   
+}
+
+.portfolio__li:nth-child(1) img {
+  left: -3.5rem;
+}
+
+.portfolio__li:nth-child(2) img {
+  left: -3rem;
+}
+
+.portfolio__li:nth-child(3) img {
+  left: -1rem;
 }
 
 .portfolio__link {
@@ -45,26 +83,61 @@ width: 100%;
 }
 
 .portfolio__li:hover {
+  flex: 2;
   cursor: pointer;
+  border-radius: 1rem;
   outline: 5px solid #000;
   background-color: #000;
   .portfolio__text {
-    display: block;
+    visibility: visible;
   }
 }
 
 .portfolio__img {
-  max-width: 300px;
+  /* max-width: 300px; */
   display: block;
+  margin: auto;
 }
 
 
 .portfolio__text {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  bottom: 5px;
+  left: 20%;
+  visibility: hidden;
+  color: #fff;
+  transition: 0.1s ease-out 0.2s; 
+  font: 1.4em sans-serif;
+  /* background-color: #000; */
+  z-index: 6;
+}
+
+.portfolio__btn_prev {
   margin: 0;
   padding: 0;
-  display: none;
-  color: #fff;
-  background-color: #000;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  background-color: #fff;
+  text-decoration: none;
+  border: none;
+  color: #a0a0a0;
+  text-align: center;
+  font-size: 24px;
+  /* font-weight: 400; */
+  cursor: pointer;
+}
+
+.portfolio__btn_prev::before {
+  content: '<';
+  margin-right: 5px;
+}
+
+.portfolio__btn_prev:hover {
+  opacity: 0.8;
+  transform: scale(1.06);
 }
 
 @media screen and (max-width: 800px) {

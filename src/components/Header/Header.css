@@ -6,17 +6,22 @@
   background-color: rgba(5, 230, 247, 0.6);
   position: fixed;
   display: flex;
+  z-index: 3;
 }
 
 .header__logo {
   margin: 0;
-  font-size: 24px;
+  /* font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 16px;*/
   position: absolute;
-  top: 15px;
+  top: 5px;
   left: 20px;
+}
+
+.logo__img {
+  max-width: 8%;
 }
 
 .header__menu {
@@ -40,14 +45,25 @@
 
 .header__text {
   margin: 0;
+  text-decoration: none;
+  color: #000;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
+  cursor: pointer;
 }
 
-.header__link:hover {
+.header__text:hover {
   opacity: 0.7;
+}
+
+.header__link:hover,
+.active
+ {
+  /* opacity: 0.8; */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: -2px;
 }
 
 .header__signin {

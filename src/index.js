@@ -2,14 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import App from "../src/components/App/App.js";
 import reportWebVitals from "./reportWebVitals";
+// import NotFound from "../src/components/NotFound/NotFound";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
+      {/* <Routes>
+        <Route path="/*" element={<NotFound />} />
+      </Routes> */}
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -1,7 +1,7 @@
 import "./Portfolio.css";
 import { useNavigate } from "react-router-dom";
 import howtolearn from "../../images/howtolearn/header-image.png";
-import travel from "../../images/travel/__background.png";
+import travel from "../../images/travel/background.png";
 import mesto from "../../images/mesto/место.jpg";
 import dreams from "../../images/Сныклоуна/AK1A0457.jpg";
 import woo from "../../images/Ву/girl-on-bike-600.gif";
@@ -10,12 +10,12 @@ function Portfolio() {
   const navigate = useNavigate();
   return (
     <section className="portfolio">
-      <h3 className="portfolio__title">Портфолио</h3>
+      {/* <h3 className="portfolio__title">Портфолио</h3> */}
       <ul className="portfolio__ul">
         <li className="portfolio__li">
           <a
             className="portfolio__link"
-            href="https://github.com/OlegMarkoF/how-to-learn"
+            href="https://olegmarkof.github.io/how-to-learn/"
             target="blank"
             title="Научиться учиться"
           >
@@ -85,7 +85,7 @@ function Portfolio() {
         </li>
       </ul>
       <button
-        className="notfound__link"
+        className="portfolio__btn_prev"
         onClick={() => navigate(-1) || navigate("/")}
         type="button"
       >
