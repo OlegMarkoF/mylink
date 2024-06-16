@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mylink/static/css/main.6dcf3625.css",
-    "main.js": "/mylink/static/js/main.197d29d6.js",
+    "main.js": "/mylink/static/js/main.5b109cf1.js",
     "static/js/453.134c992e.chunk.js": "/mylink/static/js/453.134c992e.chunk.js",
     "static/media/avatar.jpg": "/mylink/static/media/avatar.9ec89073f68807a1d318.jpg",
     "static/media/girl-on-bike-600.gif": "/mylink/static/media/girl-on-bike-600.01a442bf2a2950c040db.gif",
@@ -14,11 +14,11 @@
     "static/media/hamburger.svg": "/mylink/static/media/hamburger.08035af1e508cd8cfed5.svg",
     "static/media/Close.svg": "/mylink/static/media/Close.80dfd5bd01b8fe0a895e.svg",
     "main.6dcf3625.css.map": "/mylink/static/css/main.6dcf3625.css.map",
-    "main.197d29d6.js.map": "/mylink/static/js/main.197d29d6.js.map",
+    "main.5b109cf1.js.map": "/mylink/static/js/main.5b109cf1.js.map",
     "453.134c992e.chunk.js.map": "/mylink/static/js/453.134c992e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dcf3625.css",
-    "static/js/main.197d29d6.js"
+    "static/js/main.5b109cf1.js"
   ]
 }
