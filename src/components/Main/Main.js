@@ -6,9 +6,9 @@ function Main() {
     <>
       <main className="main">
         <AboutMe />
-        <a className="up-btn" href="#header">
+        {/* <a className="up-btn" href="#header">
           Наверх
-        </a>
+        </a> */}
       </main>
     </>
   );

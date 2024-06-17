@@ -94,6 +94,7 @@
   background-color: rgba(255, 255, 255, 0);
   object-fit: cover;
   display: none;
+  order: 2;
 }
 
 .navigation__burger:hover {

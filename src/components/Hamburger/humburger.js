@@ -7,7 +7,7 @@ function HamburgerMenu({ isOpen, onClose }) {
   // const navigate = useNavigate();
   const location = useLocation();
   return (
-    <main className={isOpen ? `hamburger hamburger_opened` : `hamburger`}>
+    <main className={isOpen ? `hamburger hamburger_opened` : `hamburger`} onClick={onClose}>
       <section className="hamburger__box">
         <button
           className="hamburger__close-button"
@@ -17,16 +17,16 @@ function HamburgerMenu({ isOpen, onClose }) {
           <img className="hamburger__close" src={close} alt="закрыть меню" />
         </button>
         <div className="hamburger__main">
-          <Link className={location.pathname === "/" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/">
+          <Link className={location.pathname === "/" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/" onClick={onClose}>
           Обо мне
           </Link>
-          <Link className={location.pathname === "/portfolio" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/portfolio">
+          <Link className={location.pathname === "/portfolio" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/portfolio" onClick={onClose}>
           Портфолио
           </Link>
-          <Link className={location.pathname === "/gallery" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/gallery">
+          <Link className={location.pathname === "/gallery" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/gallery" onClick={onClose}>
           Галерея
           </Link>
-          <Link className={location.pathname === "/contacts" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/contacts">
+          <Link className={location.pathname === "/contacts" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/contacts" onClick={onClose}>
           Контакты
           </Link>
         </div>

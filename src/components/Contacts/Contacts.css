@@ -5,7 +5,7 @@
 
 .contacts__text {
     margin: 0;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     padding: 0;
     text-align: center;
     list-style: none;
@@ -13,12 +13,17 @@
     font-weight: 30px;
     font-style: normal;
     letter-spacing: 1.1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.contacts__text li {
+.contacts__text li p {
+    margin: 0 0 20px;
     font-size: 18px;
     letter-spacing: 2;
 }
+
 
 .massage_box {
     margin: 0 auto;
@@ -76,3 +81,19 @@ a:hover,
     background-position: center;
     border: none;
 }
+
+
+@media screen  and (max-width: 800px) {
+    .contacts {
+        width: 80%;
+        margin: 0 auto;
+        padding: 150px 0 0;
+    }
+    .contacts__text {
+        font-size: 22px;
+        font-weight: 25px;
+        font-style: normal;
+        letter-spacing: 1.1;
+    }
+  
+  }

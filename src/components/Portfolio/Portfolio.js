@@ -89,7 +89,7 @@ function Portfolio() {
         onClick={() => navigate(-1) || navigate("/")}
         type="button"
       >
-        Назад
+        
       </button>
     </section>
   );

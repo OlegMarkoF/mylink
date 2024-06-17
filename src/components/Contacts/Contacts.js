@@ -86,7 +86,7 @@ function Contacts() {
         onClick={() => navigate(-1) || navigate('/')}
         type="button"
       >
-        Назад
+        
       </button>
     </section>
   );
