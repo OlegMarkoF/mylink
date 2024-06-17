@@ -1,18 +1,31 @@
 import './Header.css';
-import React from 'react';
+import { React, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../images/я(чб).svg';
+import HamburgerMenu from "../Hamburger/humburger";
 
 function Header() {
   const seIstActive = ({ isActive }) => (isActive ? "header__link active" : "header__link");
-
+  const [isOpen, setIsOpen] = useState(false);
+  const openHamburger = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <header className="header" id="header">
-      <a className="header__logo" href="#">
-        <img className="logo__img" alt="фоновая картинка" src={logo} />
-      </a>
-      <button className="hamburger-menu"></button>
+        <img className="header__logo" alt="фоновая картинка" src={logo} />
+        {isOpen ? (
+        <HamburgerMenu
+          isOpen={openHamburger}
+          onClose={openHamburger}
+        ></HamburgerMenu>
+      ) : (
+        <button
+          className="navigation__burger"
+          onClick={openHamburger}
+          type="button"
+        ></button>
+      )}
       <nav className="header__menu">
         <NavLink className={seIstActive} to="/">
           Обо мне

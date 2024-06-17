@@ -1,68 +1,46 @@
-import './hamburger.css';
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import "./hamburger.css";
+import { Link, useLocation } from "react-router-dom";
+// import icon from "../../images/icon-account.svg";
+import close from "../../images/Close.svg";
 
-function Hamburger() {
-  const seIstActive = ({ isActive }) => (isActive ? "service-button active" : "service-button");
-
-  // Открытие/закрытие гамбургер меню
-  const hamburger = document.querySelector('.hamburger');
-  const clickMenuButton = document.getElementsByClassName('service-button');
-
-  const openHamburger = () => {
-    hamburger.classList.add('hamburger_opened');
-  };
-  const closeHamburger = () => {
-    hamburger.classList.remove('hamburger_opened');
-  };
-  // function closeHamburgerEsc(evt) {
-  //   if (evt.key === 'Escape') {
-  //     closeHamburger();
-  //   }
-  // }
-  // function closeHamburgerClickButton(evt) {
-  //   if (evt.key === 'click') {
-  //     closeHamburger();
-  //   }
-  // }
-  function closeHamburgerOverlay(evt) {
-    if (evt.target === evt.currentTarget) {
-      closeHamburger();
-    }
-  }
-  let n;
-  for (n = 0; n < clickMenuButton.length; n++) {
-    clickMenuButton[n].addEventListener('click', closeHamburger);
-  }
-
-  // Здесь лежат вызовы функций
-  // closeHamburgerButton.addEventListener('click', closeHamburger);
-  // window.addEventListener('keyup', closeHamburgerEsc);
-
+function HamburgerMenu({ isOpen, onClose }) {
+  // const navigate = useNavigate();
+  const location = useLocation();
   return (
-    <section className="hamburger" onClick={closeHamburgerOverlay}>
-      <div className="hamburger__box">
+    <main className={isOpen ? `hamburger hamburger_opened` : `hamburger`}>
+      <section className="hamburger__box">
         <button
-          className="hamburger-menu hamburger__close-menu"
-          onClick={openHamburger}
-        ></button>
-        <nav className="header__menu">
-          <NavLink className={seIstActive} to="/">
-            Обо мне
-          </NavLink>
-          <NavLink className={seIstActive} to="/portfolio">
-            Портфолио
-          </NavLink>
-          <NavLink className={seIstActive} to="gallery">
-            Галерея
-          </NavLink>
-          <NavLink className={seIstActive} to="contacts">
-            Контакты
-          </NavLink>
-        </nav>
-      </div>
-    </section>
+          className="hamburger__close-button"
+          type="button"
+          onClick={onClose}
+        >
+          <img className="hamburger__close" src={close} alt="закрыть меню" />
+        </button>
+        <div className="hamburger__main">
+          <Link className={location.pathname === "/" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/">
+          Обо мне
+          </Link>
+          <Link className={location.pathname === "/portfolio" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/portfolio">
+          Портфолио
+          </Link>
+          <Link className={location.pathname === "/gallery" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/gallery">
+          Галерея
+          </Link>
+          <Link className={location.pathname === "/contacts" ? `hamburger__link hamburger__link_active` : `hamburger__link`} to="/contacts">
+          Контакты
+          </Link>
+        </div>
+        {/* <button
+          type="button"
+          className="hamburger__account"
+          onClick={() => navigate("/profile")}
+        >
+          Аккаунт
+          <img className="hamburger__icon" src={icon} alt="значек аккаунта" />
+        </button> */}
+      </section>
+    </main>
   );
 }
 
-export default Hamburger;
+export default HamburgerMenu;
