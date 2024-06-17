@@ -16,6 +16,10 @@
   height: 45px;
 }
 
+.header.hide {
+  transform: translateY(-80px);
+}
+
 /* .logo__img {
   width: 75%;
 } */

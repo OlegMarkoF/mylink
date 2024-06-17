@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer({ onAddPlace }) {
   return (
     <footer className="footer" id="footer">
-        <p className="footer__about">Свободное место</p>
+        {/* <p className="footer__about">Свободное место</p> */}
         <div className="footer__box">
           <div className="footer__links">
             <p className="footer__yp">Олег Марков</p>

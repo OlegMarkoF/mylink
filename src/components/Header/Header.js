@@ -11,6 +11,27 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
+  // логика скрытия хедера - если прогодится.
+let lastScroll = 0;
+const defaultOffset = 300;
+const header = document.querySelector("header");
+
+const containHide = () => header.classList.contains("hide");
+const scrollPosition = () => document.documentElement.scrollTop;
+
+window.addEventListener("scroll", () => {
+  if (
+    scrollPosition() > lastScroll &&
+    !containHide() &&
+    scrollPosition() > defaultOffset
+  ) {
+    header.classList.add("hide");
+  } else if (scrollPosition() < lastScroll && containHide()) {
+    header.classList.remove("hide");
+  }
+  lastScroll = scrollPosition();
+});
+
   return (
     <header className="header" id="header">
         <img className="header__logo" alt="фоновая картинка" src={logo} />
