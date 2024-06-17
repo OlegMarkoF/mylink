@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mylink/static/css/main.d0e27e42.css",
-    "main.js": "/mylink/static/js/main.5b109cf1.js",
+    "main.css": "/mylink/static/css/main.3d49c0cb.css",
+    "main.js": "/mylink/static/js/main.602f9e47.js",
     "static/js/453.134c992e.chunk.js": "/mylink/static/js/453.134c992e.chunk.js",
     "static/media/avatar.jpg": "/mylink/static/media/avatar.9ec89073f68807a1d318.jpg",
     "static/media/girl-on-bike-600.gif": "/mylink/static/media/girl-on-bike-600.01a442bf2a2950c040db.gif",
@@ -9,16 +9,16 @@
     "static/media/background.png": "/mylink/static/media/background.a7ed082da6df39dccb7c.png",
     "static/media/AK1A0457.jpg": "/mylink/static/media/AK1A0457.620b911bd28d7643e16d.jpg",
     "static/media/место.jpg": "/mylink/static/media/место.74ed174b51f720fd474a.jpg",
-    "static/media/я(чб).svg": "/mylink/static/media/я(чб).fac9cbfc4e58e43000791322fa18ce70.svg",
+    "static/media/я(чб).svg": "/mylink/static/media/я(чб).e9881b6a34ffc956027443ebd7532650.svg",
     "index.html": "/mylink/index.html",
-    "static/media/hamburger.svg": "/mylink/static/media/hamburger.08035af1e508cd8cfed5.svg",
-    "static/media/Close.svg": "/mylink/static/media/Close.80dfd5bd01b8fe0a895e.svg",
-    "main.d0e27e42.css.map": "/mylink/static/css/main.d0e27e42.css.map",
-    "main.5b109cf1.js.map": "/mylink/static/js/main.5b109cf1.js.map",
+    "static/media/hamburger.svg": "/mylink/static/media/hamburger.fe889bf9813280b38b86.svg",
+    "static/media/Close.svg": "/mylink/static/media/Close.09da049275af48ed634025493291e8c6.svg",
+    "main.3d49c0cb.css.map": "/mylink/static/css/main.3d49c0cb.css.map",
+    "main.602f9e47.js.map": "/mylink/static/js/main.602f9e47.js.map",
     "453.134c992e.chunk.js.map": "/mylink/static/js/453.134c992e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0e27e42.css",
-    "static/js/main.5b109cf1.js"
+    "static/css/main.3d49c0cb.css",
+    "static/js/main.602f9e47.js"
   ]
 }
