@@ -48,10 +48,9 @@
 }
 
 @media screen and (max-width: 800px) {
-  /* .footer {
-    padding: 50px 20px;
-    background-color: #fff;
-  } */
+  .footer {
+    padding: 10px 20px;
+  }
   .footer__about {
     font-size: 12px;
   }
