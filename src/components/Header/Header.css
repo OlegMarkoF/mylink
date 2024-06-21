@@ -109,7 +109,7 @@
  @media screen and (max-width: 800px) {
   .header {
     justify-content: space-between;
-    padding: 5px 30px;
+    padding: 5px 10px;
   }
   .header__menu {
     display: none;

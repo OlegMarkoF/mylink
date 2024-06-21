@@ -34,8 +34,6 @@
   justify-content: space-between;
 }
 
-
-.footer__yp,
 .footer__year {
   margin: 0;
   margin-bottom: 10px;
@@ -50,6 +48,12 @@
 @media screen and (max-width: 800px) {
   .footer {
     padding: 10px 20px;
+  }
+  .footer__box {
+    margin: 0 auto;
+  }
+  .footer__year {
+    margin: 0;
   }
   .footer__about {
     font-size: 12px;
