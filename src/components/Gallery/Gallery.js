@@ -1,18 +1,18 @@
 import "./Gallery.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function Gallery() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <section className="gallery" id="gallery">
       <p>Здесь будет моя галарея! Или не будет...</p>
-      <button
+      {/* <button
         className="portfolio__btn_prev"
         onClick={() => navigate(-1) || navigate("/")}
         type="button"
       >
         Назад
-      </button>
+      </button> */}
     </section>
   );
 }

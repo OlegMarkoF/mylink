@@ -1,8 +1,8 @@
 import './Contacts.css';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 function Contacts() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const arrText = [''];
   const text = arrText.map((item) => `${item}`).join('');
@@ -81,13 +81,13 @@ function Contacts() {
           <p className="date-of-message"></p>
         </div>
       </div>
-      <button
+      {/* <button
         className="portfolio__btn_prev"
         onClick={() => navigate(-1) || navigate('/')}
         type="button"
       >
         
-      </button>
+      </button> */}
     </section>
   );
 }

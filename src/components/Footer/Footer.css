@@ -14,7 +14,7 @@
 
 .footer__about {
   margin: auto;
-  padding-bottom: 20px;
+  padding: 0;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   color: #a0a0a0;
@@ -25,7 +25,7 @@
 }
 
 .footer__box {
-  margin: 20px auto 0;
+  margin: 0 auto;
   width: 100%;
   text-align: center;
   /* display: flex; */
@@ -33,10 +33,12 @@
   align-items: center;
   justify-content: space-between;
 }
+.footer__yp {
+  margin: 0;
+}
 
 .footer__year {
   margin: 0;
-  margin-bottom: 10px;
   text-decoration: none;
   color: rgb(0, 0, 0, 0.8);
   font-size: 13px;

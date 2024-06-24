@@ -130,18 +130,18 @@
 
   .about-me__job {
     margin: 20px 0;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 145.455%;
   }
 
   .about-me__text {
     font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 145.455%;
   }
 
   .about-me__box {
-    margin: 40px 0 200px;
+    margin: 40px 0 0;
     max-width: 100%;
     display: flex;
     flex-direction: column;

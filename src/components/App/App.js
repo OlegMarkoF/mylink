@@ -12,7 +12,7 @@ import Hamburger from '../Hamburger/humburger';
 // import logo from "../../images/я(чб).svg";
 
 function App() {
-  
+
   return (
     <>
       <Header />
