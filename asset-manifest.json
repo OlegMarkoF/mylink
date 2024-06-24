@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/mylink/static/css/main.bb04cf24.css",
-    "main.js": "/mylink/static/js/main.7e5bdbd8.js",
+    "main.css": "/mylink/static/css/main.bee88efe.css",
+    "main.js": "/mylink/static/js/main.c78e627d.js",
     "static/js/453.134c992e.chunk.js": "/mylink/static/js/453.134c992e.chunk.js",
     "static/media/avatar.jpg": "/mylink/static/media/avatar.9ec89073f68807a1d318.jpg",
     "static/media/girl-on-bike-600.gif": "/mylink/static/media/girl-on-bike-600.01a442bf2a2950c040db.gif",
-    "static/media/header-image.png": "/mylink/static/media/header-image.523406a663b34f340bd7.png",
+    "static/media/feynman.png": "/mylink/static/media/feynman.636c899c8d6f40427008.png",
     "static/media/background.png": "/mylink/static/media/background.a7ed082da6df39dccb7c.png",
     "static/media/AK1A0457.jpg": "/mylink/static/media/AK1A0457.620b911bd28d7643e16d.jpg",
     "static/media/место.jpg": "/mylink/static/media/место.74ed174b51f720fd474a.jpg",
@@ -13,12 +13,12 @@
     "index.html": "/mylink/index.html",
     "static/media/hamburger.svg": "/mylink/static/media/hamburger.fe889bf9813280b38b86.svg",
     "static/media/Close.svg": "/mylink/static/media/Close.09da049275af48ed634025493291e8c6.svg",
-    "main.bb04cf24.css.map": "/mylink/static/css/main.bb04cf24.css.map",
-    "main.7e5bdbd8.js.map": "/mylink/static/js/main.7e5bdbd8.js.map",
+    "main.bee88efe.css.map": "/mylink/static/css/main.bee88efe.css.map",
+    "main.c78e627d.js.map": "/mylink/static/js/main.c78e627d.js.map",
     "453.134c992e.chunk.js.map": "/mylink/static/js/453.134c992e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb04cf24.css",
-    "static/js/main.7e5bdbd8.js"
+    "static/css/main.bee88efe.css",
+    "static/js/main.c78e627d.js"
   ]
 }
