@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mylink/static/css/main.bee88efe.css",
-    "main.js": "/mylink/static/js/main.c78e627d.js",
+    "main.css": "/mylink/static/css/main.dd437106.css",
+    "main.js": "/mylink/static/js/main.24c3e9d1.js",
     "static/js/453.134c992e.chunk.js": "/mylink/static/js/453.134c992e.chunk.js",
     "static/media/avatar.jpg": "/mylink/static/media/avatar.9ec89073f68807a1d318.jpg",
     "static/media/girl-on-bike-600.gif": "/mylink/static/media/girl-on-bike-600.01a442bf2a2950c040db.gif",
@@ -13,12 +13,12 @@
     "index.html": "/mylink/index.html",
     "static/media/hamburger.svg": "/mylink/static/media/hamburger.fe889bf9813280b38b86.svg",
     "static/media/Close.svg": "/mylink/static/media/Close.09da049275af48ed634025493291e8c6.svg",
-    "main.bee88efe.css.map": "/mylink/static/css/main.bee88efe.css.map",
-    "main.c78e627d.js.map": "/mylink/static/js/main.c78e627d.js.map",
+    "main.dd437106.css.map": "/mylink/static/css/main.dd437106.css.map",
+    "main.24c3e9d1.js.map": "/mylink/static/js/main.24c3e9d1.js.map",
     "453.134c992e.chunk.js.map": "/mylink/static/js/453.134c992e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bee88efe.css",
-    "static/js/main.c78e627d.js"
+    "static/css/main.dd437106.css",
+    "static/js/main.24c3e9d1.js"
   ]
 }
