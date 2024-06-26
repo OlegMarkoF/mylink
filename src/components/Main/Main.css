@@ -7,6 +7,9 @@
   background-position-x: 30%;
   background-position-y: 70%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /* z-index: 5; */
 }
 
@@ -38,4 +41,18 @@
 .up-btn:hover {
   margin-bottom: 2px;
   box-shadow: 0 1px 2px;
+}
+
+.contact-btn {
+  margin: 0 auto 15px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(5, 230, 247, 0.6);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  filter: grayscale();
+  cursor: pointer;
+}
+.contact-btn:hover {
+  filter: none;
 }

@@ -3,7 +3,7 @@
   padding: 10px 40px;
   width: 100%;
   box-sizing: border-box;
-  background-color: rgba(5, 230, 247, 0.6);
+  background: linear-gradient(rgba(5, 230, 247, 1), transparent);
   position: fixed;
   display: flex;
   align-items: center;
