@@ -43,6 +43,24 @@ function Portfolio() {
             <p className="portfolio__text">Сайт для театра "ГримАсы"</p>
           </a>
         </li>
+
+        <li className="portfolio__li">
+          <a
+            className="portfolio__link"
+            href="https://olegmarkof.github.io/Gallery/"
+            target="blank"
+            title="Слайдер фото и видео"
+          >
+            <img
+              className="portfolio__img"
+              alt="фоновая картинка"
+              src="https://images.unsplash.com/photo-1514077386104-9d9504da577b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <p className="portfolio__text">Слайдер фото и видео</p>
+          </a>
+        </li>
+
+      
         <li className="portfolio__li">
           <a
             className="portfolio__link"

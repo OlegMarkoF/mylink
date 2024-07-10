@@ -45,7 +45,7 @@ function Header() {
         </NavLink>
       </nav>
       <a className="header__text" href="tel:+79179406963">
-        +7 (917) 940-69-63
+        +7 917 940-69-63
       </a>
     </header>
   );

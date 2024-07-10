@@ -11,9 +11,9 @@ function Main() {
         {/* <a className="up-btn" href="#header">
           Наверх
         </a> */}
-        <button className="contact-btn" href="tel:+79179406963">
+        <a className="contact-btn" href="tel:+79179406963">
           Позвонить
-        </button>
+        </a>
       </main>
     </>
   );
