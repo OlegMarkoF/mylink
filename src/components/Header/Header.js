@@ -1,21 +1,23 @@
 import './Header.css';
 import { React, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link  } from 'react-router-dom';
 import logo from '../../images/я(чб).svg';
-import HamburgerMenu from "../Hamburger/humburger";
+import HamburgerMenu from '../Hamburger/humburger';
 
 function Header() {
-  const seIstActive = ({ isActive }) => (isActive ? "header__link active" : "header__link");
+  const seIstActive = ({ isActive }) =>
+    isActive ? 'header__link active' : 'header__link';
   const [isOpen, setIsOpen] = useState(false);
   const openHamburger = () => {
     setIsOpen(!isOpen);
   };
 
-
   return (
     <header className="header" id="header">
+      <Link to="/#about-me">
         <img className="header__logo" alt="фоновая картинка" src={logo} />
-        {isOpen ? (
+      </Link>
+      {isOpen ? (
         <HamburgerMenu
           isOpen={openHamburger}
           onClose={openHamburger}
@@ -31,10 +33,7 @@ function Header() {
         <NavLink className={seIstActive} to="/">
           Обо мне
         </NavLink>
-        <NavLink
-          className={seIstActive}
-          to="/portfolio"
-        >
+        <NavLink className={seIstActive} to="/portfolio">
           Портфолио
         </NavLink>
         <NavLink className={seIstActive} to="gallery">

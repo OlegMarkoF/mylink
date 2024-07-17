@@ -25,10 +25,16 @@
   align-items: flex-start;
 }
 
+h3,
+p {
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
 .about-me__img {
   border-radius: 10px;
   width: 270px;
   height: 327px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
 }
 
 .about-me__title {
